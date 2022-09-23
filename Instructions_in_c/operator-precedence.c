@@ -8,4 +8,7 @@ int main()
     3. = 
 
     */
+
+
+  //  * , / % ---left to right (associativty rule)
 }
