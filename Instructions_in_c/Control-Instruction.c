@@ -21,6 +21,6 @@ int main(){
  printf("%d\n",5 >=4);
  printf("%d\n",5 !=4);
 
-
+printf("%d", !((5>1)&&(3>4)));
 return 0 ;
 }
