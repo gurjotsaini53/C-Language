@@ -1,0 +1,17 @@
+-------------------Dynamic memory allocation-------------------------
+
+1. It is way to allocate memory to a data structure during runtime 
+2. we need some function to allocate & free memory dynamically
+
+--------------------------------------------------------------------------
+1. compile time -- when program is converting into machine code or binary code
+2. runtime  -- when program is running  
+------------------------------------------------------------------------------------
+
+
+
+Functions for Dynamic Memory allocation
+a. malloc()
+b. calloc()
+c. free()
+d. realloc()
