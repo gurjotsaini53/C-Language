@@ -1,0 +1,108 @@
+File input output
+
+
+file  :- container in a storage device to store data
+
+- RAM is volatile
+- contents are lost when program terminates
+- Files are used to persist the data 
+
+
+
+
+----------------------------------------------------------
+
+
+Operations on Files
+- create a File
+- Open a file
+- Close a file
+- Read from a File
+- Write in a File
+
+
+
+-----------------------------------------------
+
+
+Types of File 
+
+Text files ---- .txt , .c , .java
+
+Binary Files --- .exe , .mp3 , .jpg
+
+--------------------------------------------
+
+File Pointer 
+
+File is a  (hidden) structure that needs to be created for opening 
+a file 
+
+A file ptr that points to this structure & is used to access the file
+
+
+FILE *fptr  ;
+
+
+
+------------------------------------------------------------------
+
+
+Opening a file
+
+File *fptr ;  
+fptr = fopen("filename",mode);
+
+
+
+closing a file 
+
+fclose(fptr);
+-----------------------------------------------
+
+
+File opening modes
+
+
+"r" - open to Read
+"rb" - open to read in binary 
+"w" - open to write 
+"wb" - open to write in binary
+"a" - open to append
+
+-------------------------------------------
+Best Practice
+check if file exit before reading it 
+-------------------------------------------
+
+Reading from a file
+
+char ch ; 
+fscanf(fptr,"%c",&ch);
+
+----------------------------------------------------
+
+
+Writing to a file
+
+char ch = "A"
+fprintf(fptr,"%c",ch);
+
+
+----------------------------------------
+
+Read and write a char
+
+fgetc(fptr);
+fputc('A',fptr);
+
+
+
+----------------------------------------------
+
+
+EOF (END OF FILE)
+
+
+fgetc returns EOF to show that the file has ended
+
