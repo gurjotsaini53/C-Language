@@ -1,0 +1,8 @@
+
+
+properties of recursion
+
+1. anything that can be done with iteration , can be done with recursion and vice versa ;
+2. recursion can sometimes gove the most simple solution
+3. Base condition is the condition which stops recursion
+4. iteration has infinite loop & recursion has stack overflow . 

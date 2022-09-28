@@ -1,0 +1,79 @@
+functions -- block of code that perform particular task
+
+it take arguments - do work - return result
+
+it can be used mutliple times increase code reusability 
+
+syntax 1 : 
+
+Function Prototype
+
+void printHello(); 
+
+syntax 2  ; 
+
+Function Definition 
+
+void printHello(){
+    printHello("Hello");
+}
+
+-----------------------------------------------
+
+
+Execution always starts from main
+a function gets called directly or indireclty from main
+
+There can be multiple functions in a program
+
+
+-----------------------------------------------
+
+
+Types of functions
+
+1. Library Function  -- special functions inbuilt in c e.g. scanf() ,  printf() 
+2. User-defined - declared & defined by programmer 
+--------------------------------------------------------
+
+
+Passinfg arguments
+
+function can take value & give some value
+
+1. parameter
+2. return value
+
+
+
+void printHello();
+void printTable(int n);
+int sum(int a , int b);
+
+
+
+------------------------------------------
+
+
+Arguments v/s parameter
+
+arguments ----
+1. values that are passed in function call
+2. used to send value 
+3. actual parameter
+
+parameter ---
+
+1.values in function declaration & Definition
+2. used to receive value
+3. Formal parameter
+
+
+----------------------------------------
+
+Note  : 
+
+a. Function can only return one value at a time
+b. changes to parameters in function don't change the values in calling function
+
+Because a copy of argument is passed to the function
