@@ -1,0 +1,35 @@
+Pointer ---
+A variable that stores the memory address of another variable
+
+
+syntax 
+
+int age = 22 ; 
+int *ptr  =&age ; // address of age
+int _age = *ptr ; // value at address
+
+
+
+----------------------------
+
+Declaring Pointer
+
+int *ptr; 
+char *ptr ; 
+float *ptr; 
+
+-------------------------------
+
+
+
+Pointer to Pointer
+
+A variable that stores the memory addressof another Pointer
+
+
+syntax -
+
+int **ptr ;
+char **ptr ;
+float **ptr; 
+
