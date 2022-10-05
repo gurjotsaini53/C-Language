@@ -1,0 +1,1 @@
+{"name":"Local: QuickSort","url":"c:\\Users\\Gurjot Singh\\Desktop\\C-Language\\Sorting-In-C\\QuickSort.c","tests":[{"id":1664520931843,"input":"1\n6\n2 4 0 1 5 3","output":"0 1 2 3 4 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Gurjot Singh\\Desktop\\C-Language\\Sorting-In-C\\QuickSort.c","group":"local","local":true}
